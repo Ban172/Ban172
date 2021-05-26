@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="jquery-1.11.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+  <style>
+    body{
+      
+      
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("background.jpg");
+      background-repeat: no-repeat;
+      overflow: hidden;
+      padding-bottom: 100px;
+    }
+    #zaobljena{
+      border-radius: 50%;
+      width: 50px;
+      margin-top: 50px;
+    }
+    .pozadina{
+      background-color: rgb(135, 118, 204);
+      border-radius: 20%;
+      text-align: center;
+      margin-top: 60px;
+      line-height: 60px;
+      
+    }
+    #velicina{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    a{
+      color: black;
+      
+    }
+    
+    #slika img{
+      height: 486px;
+      width: 428px;
+    }
+    #main{
+      margin-top: 250px;
+
+    }
+    #main p{
+      padding-top:70px;
+      text-align: left;
+      font-size: 23px;
+      color:rgb(255, 255, 255);
+    }
+  </style>
+</head>
+<body >
+  <header class="container-fluid">
+  <div class="row ">
+    <img src="ban.jpg" id="zaobljena"><div class="col-lg-1 pozadina "><a href="pocetna.html">BAN172</a></div>
+    <div class="col-lg-3"></div>
+    
+    <div class="col-lg-3 pozadina" id="velicina">Alen Tucman</div>
+  </div>
+  </header>
+    
+    <div class="container-fluid" id="main">
+      <div class="row">
+        <div class="col-lg-8"><p>Bok, ja sam Alen Tucman.
+            Živim u Zaprešiću i student sam Tehničkog Veleučilišta u Zagrebu, smjera Informatika - Organizacija i informatizacija ureda.
+            Područje zanimanja mi je baze podataka u SQL-u kao i PHP i HTML jezici. 
+            Uz interes u IT-u bavim se pilotiranjem modela jedrilica u čemu sam i 2018. godine postao Europski prvak.
+            </p></div>
+        <div class="col-lg-4" id="slika"><img src="AlenTucman-0-3.jpg"></div>
+      </div>
+
+    </div>
+  
+
+
+</body>
+
+</html>
