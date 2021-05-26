@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BAN 172</title>
+    <style>
+        html{
+            overflow: hidden;
+        }
+        header{
+            height: 100px;
+        }
+        .ban{
+            height: 100px;
+            width: 100%;
+        }
+        .slika{
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("background.jpg");
+            background-repeat: no-repeat;  
+        }
+        .ban img{
+            border-radius: 50%;
+            height: 100px;
+            margin-left: 20px;
+            float: left;
+            z-index: 1;
+        }
+
+        
+        .banlink{
+            background-color: rgb(135, 118, 204);
+            width: 150px;
+            float: left;
+            margin-top: 20px;
+            text-align: center;
+            border-radius: 20%;
+            height: 50px;
+            margin-left: -2px;
+            line-height: 50px; 
+            font-weight: bold;
+            
+        }
+        .naslov{
+            float: left;
+            margin-left: 450px;
+            width: 500px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            border-radius: 20%;
+            height: 100px;
+            line-height: 50px;
+            font-weight: bold;
+        }
+        .kontakt{
+            width: 200px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            padding: 20px;
+            margin: 0 auto;
+            border-radius: 20%;
+            margin-top: -110px;
+        }
+        
+        
+        section{
+            margin: 0 auto;
+            width: 90%;
+            height: 1500px;
+            clear: both;
+        }
+        .kontakt2{
+            width: 200px;
+            float: left;
+            text-align: center;
+            padding: 20px;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        .kontakt3{
+            width: 200px;
+            float: right;
+            text-align: center;
+            padding: 20px;
+            margin-right: 100px;
+            margin-top: 50px;
+        }
+        #fname{
+            float: left;
+            margin-top: 200px;
+            background-color: rgb(135, 118, 204);
+            color: white;
+            width: 450px;
+            height: 50px;
+            opacity: 0.8;
+            border: none;
+        }
+        #email{
+            float: left;
+            margin-top: 20px;
+            background-color: rgb(135, 118, 204);
+            color: white;
+            width: 450px;
+            height: 50px;
+            opacity: 0.8;
+            border: none;
+        }
+        #naslov{
+            float: left;
+            margin-top: 20px;
+            background-color: rgb(135, 118, 204);
+            color: white;
+            width: 450px;
+            height: 50px;
+            opacity: 0.8;
+            border: none;
+        }
+        #poruka{
+            float: left;
+            margin-top: 20px;
+            background-color: rgb(135, 118, 204);
+            color: white;
+            resize: none;
+            opacity: 0.8;
+        }
+        ::placeholder{
+            color: white;
+            opacity: 1;
+        }
+        #submit{
+            float: left;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .adresa{
+            float: right;
+            margin-top: 200px;
+            background-color: rgb(135, 118, 204);
+            color: black;
+            width: 450px;
+            height: 65px;
+            opacity: 0.8;
+            border: none;
+            line-height: 65px;
+            font-weight: 800;
+        }
+        .k{
+            float: right;
+            margin-top: 20px;
+            background-color: rgb(135, 118, 204);
+            color: black;
+            width: 450px;
+            height: 65px;
+            opacity: 0.8;
+            border: none;
+            line-height: 65px;
+            font-weight: 800;
+        }
+        .button{
+            float: right;
+            margin-top: 20px;
+            background-color: rgb(135, 118, 204);
+            color: black;
+            width: 250px;
+            height: 70px;
+            opacity: 0.8;
+            line-height: 65px;
+            font-weight: 800;
+            margin-right: 200px;
+            display:block;
+        }
+        .button:hover{
+            background-color: rgb(105, 79, 209);
+        }
+       .adresa img, .k img{
+            height: 50px;
+            float: left;
+            margin-top: 5px;
+            color: black;
+       }
+        
+    </style>
+</head>
+<body class="slika">
+
+    <header>
+        <a href="pocetna.html">
+            <div class="ban"><img src="ban.jpg"><div class="banlink">BAN172</div>
+        </a>
+        
+        <div class="naslov">
+            <h1>KONTAKT</h1>
+        </div>
+    </header>
+
+    <section>
+        <article class="kontakt2">
+            <form action="" method="POST"></form>
+                <input name="fname" type="text" id="fname" placeholder="Vaše ime" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Vaše ime'"/>
+                <br />
+                <input name="email" type="email" id="email" placeholder="Vaša e-mail adresa" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Vaša e-mail adresa'"/>
+                <br />
+                <input name="naslov" type="text" id="naslov" placeholder="Naslov" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Naslov'"/>
+                <br />
+                <textarea name="poruka" cols="62" rows="7" id="poruka" placeholder="Tekst poruke..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tekst poruke...'"></textarea>
+                <br />   
+            </form>
+
+        </article>
+        <article class="kontakt3">
+           <div class="adresa"><img src="lokacija.png">Zaprešićka 172, 10290 Zaprešić</div>
+           <div class="k"><img src="telefon.png">094 172 172</div>
+           <div class="k">ban172@ban.zap</div>
+           <a href="kontakt.html"><button type="submit" class="button">Pošalji</button></a>
+        </article>
+    </section>
+
+</body>
+</html>
