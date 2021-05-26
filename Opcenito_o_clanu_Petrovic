@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="jquery-1.11.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+  <style>
+    body{
+      
+      
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("background.jpg");
+      background-repeat: no-repeat;
+      overflow: hidden;
+      padding-bottom: 100px;
+    }
+    #zaobljena{
+      border-radius: 50%;
+      width: 50px;
+      margin-top: 50px;
+    }
+    .pozadina{
+      background-color: rgb(135, 118, 204);
+      border-radius: 20%;
+      text-align: center;
+      margin-top: 60px;
+      line-height: 60px;
+      
+    }
+    #velicina{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    a{
+      color: black;
+      
+    }
+    
+    #slika img{
+      height: 486px;
+      width: 428px;
+    }
+    #main{
+      margin-top: 250px;
+
+    }
+    #main p{
+      padding-top:70px;
+      text-align: left;
+      font-size: 23px;
+      color:rgb(255, 255, 255);
+    }
+  </style>
+</head>
+<body >
+  <header class="container-fluid">
+  <div class="row ">
+    <img src="ban.jpg" id="zaobljena"><div class="col-lg-1 pozadina "><a href="pocetna.html">BAN172</a></div>
+    <div class="col-lg-3"></div>
+    
+    <div class="col-lg-3 pozadina" id="velicina">Ozren Petrović</div>
+  </div>
+  </header>
+    
+    <div class="container-fluid" id="main">
+      <div class="row">
+        <div class="col-lg-8"><p>Poštovani/a, ja sam Ozren Petrović i imam 20 godina.Živim u Zaprešiću gdje sam i završio Srednju školu Ban Josip Jelačić smjera tehničar za računalstvo.Trenutno studiram drugu godinu Tehničkog Veleučilišta u Zagrebu smjera informatika sa kojim sam zadovoljan, jedino bih volio da se više pojavljuje HTML/CSS i PHP programiranje jer to želim u bliskoj budućnosti raditi.U slobodno vrijeme kao i većina kolega volim provoditi igrajući igrice i otići na rekreacijski nogomet, također volim izvoditi mađionarske trikove u kojima nisam Houdini, ali se snalazim.Volim držati do sebe tako što se zdravo hranim i bavim se skoro svakodnevnim treningom u teretani.</p></div>
+        <div class="col-lg-4" id="slika"><img src="IMG_20200307_031509_963.jpg"></div>
+      </div>
+
+    </div>
+  
+
+
+</body>
+
+</html>
