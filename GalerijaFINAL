@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BAN 172</title>
+    <style>
+        html{
+            overflow: hidden;
+        }
+        header{
+            height: 80px;
+            
+        }
+        .slika{
+            background-image: url('background1.jpg');
+            width: 100px;
+            background-repeat: no-repeat;
+            background-size: 100% ;
+        }
+        div{
+            height: 80px;
+            
+        }
+        .ban img{
+            border-radius: 50%;
+        }
+        .naslov{
+            margin-left: 100px;
+            margin-top: -50px;
+            width: 200px;
+            height:-50px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            padding: 10px;
+            
+            border-radius: 20%;
+        }
+        .kontakt{
+            width: 200px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            padding: 20px;
+            margin-left: 900px;
+            border-radius: 20%;
+            margin-top: -110px;
+        }
+        .galerija{
+            width: 400px;
+            height:60px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            padding: 10px;
+            margin-left: 500px;
+            border-radius: 20%;
+            margin-top: -120px;
+        }
+        section{
+            margin: 0 auto;
+            width: 90%;
+            height: 1500px;
+            clear: both;
+        }
+        .brlek{
+            
+            width: 1880px;
+            margin-top: 180px;
+            height: 20px;
+            
+        }
+        .osoba{
+            opacity: 1;
+            height: 150px;
+            
+            margin-left: 140px;
+            float: left;
+           
+        }
+        .osoba2{
+            opacity: 1;
+            height: 150px;
+            width: 150px;
+            margin-left: 140px;
+            float: left;
+           
+        }
+        .osoba3{
+            opacity: 1;
+            height: 150px;
+            width: 150px;
+            margin-left: 140px;
+            float: left;
+           
+        }
+        .opis{
+            float: right;
+            margin-right: 100px;
+            background-color: rgb(135, 118, 204);
+            text-align: center;
+            padding: 20px;
+            height: 30px;
+            margin-top: -50px;
+            border-radius: 30%;
+        }
+        .ozren{
+            margin-right: 100px;
+           
+            
+        }
+        .alen{
+            
+            
+        }
+        .karlo{
+            
+        }
+        .link img{
+            height: 30px;
+
+        }
+        .link{
+            float: right;
+            margin-top: 20px;
+            margin-right: -100px;
+        }
+    </style>
+</head>
+<body class="slika">
+
+    <header>
+        <div class="ban">
+            <img src="ban.jpg">
+            
+        </div>
+        <div class="naslov">
+            <h1>BAN 172</h1>
+            
+        </div>
+        
+        
+
+        <div class="galerija">
+            <h1><a href="">GALERIJA</a></h1>
+        </div>
+    </header>
+
+    <section>
+        <article class="brlek" >
+            <img class="osoba" src="slika_student_3.jpg">
+            <img class="osoba" src="slika_student_1.jpg">
+            <img class="osoba" src="slika_student.jpg">
+            <img class="osoba" src="slika_student_2.jpg">
+            
+        </article>
+        <article class="brlek">
+            <img class="osoba2" src="tuc.jpg">
+            <img class="osoba2" src="brc.jpg">
+            <img class="osoba3" src="bela.jpg">
+            
+        </article>
+        
+    </section>
+
+</body>
+</html>
